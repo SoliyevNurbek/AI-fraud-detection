@@ -1,0 +1,42 @@
+:root {
+  --bg: #09111d;
+  --bg-2: #0f1d31;
+  --card: rgba(9, 20, 39, 0.78);
+  --card-strong: rgba(13, 28, 51, 0.94);
+  --line: rgba(136, 167, 228, 0.16);
+  --text: #ecf4ff;
+  --muted: #91a7ca;
+  --danger: #ff6f61;
+  --warning: #ffb547;
+  --success: #32d39b;
+  --accent: #77b9ff;
+  --shadow: 0 28px 60px rgba(2, 8, 18, 0.5);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  color: var(--text);
+  background:
+    radial-gradient(circle at top left, rgba(119, 185, 255, 0.18), transparent 28%),
+    radial-gradient(circle at bottom right, rgba(255, 111, 97, 0.12), transparent 26%),
+    linear-gradient(180deg, #030813 0%, #08111d 50%, #0b1422 100%);
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
