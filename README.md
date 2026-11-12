@@ -45,7 +45,7 @@ Open:
 - http://127.0.0.1:8000/dashboard
 
 Demo login:
-- admin / admin123
+- admin / admin123 (faqat demo; haqiqiy muhitda albatta almashtiring)
 
 ## Frontend Quick Start
 ```powershell
