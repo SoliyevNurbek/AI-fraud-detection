@@ -28,3 +28,9 @@ yarn-error.log*
 
 # misc
 .DS_Store
+
+# maxfiy va keraksiz fayllar
+*.db
+*.sqlite3
+instance/
+.coverage
